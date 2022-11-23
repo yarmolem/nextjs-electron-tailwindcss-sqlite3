@@ -1,0 +1,15 @@
+appId: com.example.nextron
+productName: IDEASBOX
+copyright: Copyright © 2018 Yoshihide Shiono
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
+extraResources:
+  - database/test.json
+  - database/db.sqlite3
